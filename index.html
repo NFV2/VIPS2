@@ -178,6 +178,12 @@
     .contact-pill {
       padding: 14px 16px; border-radius: 18px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.12);
       color: rgba(255,255,255,.92);
+      cursor: pointer;
+      transition: transform .2s ease, background .2s ease;
+    }
+    .contact-pill:hover {
+      transform: translateY(-2px);
+      background: rgba(255,255,255,.10);
     }
     footer {
       color: #9ba5b7; font-size: 13px; padding-top: 18px;
@@ -384,7 +390,15 @@
         <div class="contact-list">
           <div class="contact-pill">Email · Natalie@vips2.com</div>
           <div class="contact-pill">Mobile · +972-506463553</div>
-          <div class="contact-pill">LinkedIn · linkedin.com/in/natalie-perry-fritz-b152607</div>
+         <a
+           class="contact-pill"
+           href="https://www.linkedin.com/in/natalie-perry-fritz-b152607"
+           target="_blank"
+           rel="noopener"
+          >
+           LinkedIn · linkedin.com/in/natalie-perry-fritz-b152607
+          </a>
+          
         </div>
       </div>
 
